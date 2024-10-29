@@ -1,0 +1,106 @@
+body#calameodialog
+{
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif
+}
+
+.ath-error
+{
+    border: 1px solid red !important;
+}
+
+.ath-manage-calameo-form-wrapper tr,
+.ath-manage-calameo-form-wrapper td
+{
+    padding: 5px;
+}
+
+.ath-manage-calameo-form-wrapper input.button-primary
+{
+    margin: 15px;
+}
+
+.ath-disabled
+{
+    color: #666 !important;
+}
+
+.ath-disabled:hover
+{
+    border: 1px solid #BBB !important;
+    cursor: default !important;
+}
+
+.ath-calameo-size input
+{
+    width:50px;
+}
+
+.ath-hidden
+{
+    display: none;
+}
+
+textarea
+{
+    width: 100%;
+}
+
+#calameo_wrapper label
+{
+    font-size: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+#calameo_wrapper select
+{
+    height: 2em;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#calameo_wrapper option
+{
+    height: 1.2em;
+    padding: 2px;
+}
+
+#calameo_wrapper tr
+{
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+#calameo_wrapper th
+{
+    float: left;
+}
+
+#ath_tb_custom_overlay
+{
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 106;
+}
+
+#ath_tb_custom_load
+{
+    background-color: #E8E8E8;
+    border: 1px solid #555555;
+    display: none;
+    left: 50%;
+    margin: -45px 0 0 -125px;
+    padding: 40px 15px 15px;
+    position: fixed;
+    top: 50%;
+    z-index: 107;
+}
+.subscription-id img
+{
+    vertical-align: middle;
+}
